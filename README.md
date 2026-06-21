@@ -54,10 +54,25 @@ SustainIQ moves beyond basic LLM wrappers by implementing a deterministic **Mode
 
 ### Model Context Protocol (MCP) Integration
 To prevent LLM hallucination and ensure deterministic data retrieval, SustainIQ integrates four distinct MCP servers. The Evaluation Agent queries these servers as discrete tools:
-- `procurement_mcp`: Retrieves enterprise budget constraints and historical order volumes.
-- `risk_mcp`: Calculates operational, geopolitical, and concentration risk profiles.
-- `supplier_mcp`: Accesses the internal vendor database for baseline verification.
-- `sustainability_mcp`: Cross-references ISO certifications and reported carbon emissions.
+
+## MCP Services
+
+### Supplier MCP
+- Supplier discovery
+- Supplier comparison
+- Profile retrieval
+
+### Risk MCP
+- Supplier risk
+- Concentration risk
+
+### Sustainability MCP
+- Sustainability scoring
+- Emissions proxy analysis
+
+### Procurement MCP
+- Spend analysis
+- Cost evaluation
 
 ## ✨ Key Features
 
