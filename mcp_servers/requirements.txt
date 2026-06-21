@@ -1,0 +1,4 @@
+mcp
+SQLAlchemy[asyncio]
+asyncpg
+python-dotenv
