@@ -43,6 +43,22 @@ graph TD;
     Orchestrator -->|Final Decision Matrix| API;
 ```
 
+## 🤖 Agentic & MCP Architecture
+
+SustainIQ moves beyond basic LLM wrappers by implementing a deterministic **Model Context Protocol (MCP)** layer and a specialized Multi-Agent hierarchy using the **Strands SDK**.
+
+### The Agent Hierarchy
+1. **Decision Agent (The Orchestrator)**: Acts as the lead Procurement Analyst. It parses natural language constraints, orchestrates sub-agents, mathematically computes the final decision scores, and formats the comparative matrix.
+2. **Discovery Agent**: Handles deep web research using the Tavily API. It dynamically searches for true manufacturers, extracts sustainability PDFs, and validates material sourcing claims.
+3. **Evaluation Agent**: Interfaces directly with the enterprise database layer to assess historical compliance, geopolitical risks, and existing ESG certifications.
+
+### Model Context Protocol (MCP) Integration
+To prevent LLM hallucination and ensure deterministic data retrieval, SustainIQ integrates four distinct MCP servers. The Evaluation Agent queries these servers as discrete tools:
+- `procurement_mcp`: Retrieves enterprise budget constraints and historical order volumes.
+- `risk_mcp`: Calculates operational, geopolitical, and concentration risk profiles.
+- `supplier_mcp`: Accesses the internal vendor database for baseline verification.
+- `sustainability_mcp`: Cross-references ISO certifications and reported carbon emissions.
+
 ## ✨ Key Features
 
 - **The Supplier Comparison Matrix**: A mathematically rigorous breakdown of Cost, Delivery, Risk, Sustainability, and Location scores for at least 3 candidate suppliers per query.
