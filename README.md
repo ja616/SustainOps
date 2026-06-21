@@ -1,7 +1,7 @@
 # SustainIQ 🍃
 **Enterprise Decision Intelligence for Sustainable Procurement**
 
-![SustainIQ Interface Demo](https://raw.githubusercontent.com/ja616/SustainOps/main/demo-placeholder.png) <!-- Note: Add a real screenshot here later -->
+![SustainIQ Interface Demo](https://raw.githubusercontent.com/ja616/SustainOps/main/demo.png) <!-- Note: Add a real screenshot here later -->
 
 SustainIQ is a **Multi-Agent Decision Intelligence Platform** designed to solve a complex enterprise challenge: *evaluating and shifting supply chains based on cost, delivery, risk, and sustainability tradeoffs.* 
 
