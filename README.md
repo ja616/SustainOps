@@ -82,6 +82,13 @@ To prevent LLM hallucination and ensure deterministic data retrieval, SustainIQ 
 - **Full Transparency Trace**: A built-in UI panel exposes the inner "thoughts" and tool calls of the ReAct multi-agent loop, proving how the engine arrived at its decision.
 - **End-to-End Persistence**: Every query, matrix, and reasoning trace is securely persisted in PostgreSQL, enabling historical audits and one-click "Approve / Reject" workflows.
 
+- 
+![SustainIQ Interface Demo](https://raw.githubusercontent.com/ja616/SustainOps/main/demo1.png) <!-- Note: Add a real screenshot here later -->
+
+![SustainIQ Interface Demo](https://raw.githubusercontent.com/ja616/SustainOps/main/demo2.png) <!-- Note: Add a real screenshot here later -->
+
+![SustainIQ Interface Demo](https://raw.githubusercontent.com/ja616/SustainOps/main/demo3.png) <!-- Note: Add a real screenshot here later -->
+
 ## 🛠️ Local Development Setup
 
 To run SustainIQ locally, you need Docker Desktop and an AWS account with Bedrock access.
