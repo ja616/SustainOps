@@ -87,6 +87,8 @@ To prevent LLM hallucination and ensure deterministic data retrieval, SustainIQ 
 
 ![SustainIQ Interface Demo](https://raw.githubusercontent.com/ja616/SustainOps/main/demo2.png) <!-- Note: Add a real screenshot here later -->
 
+![SustainIQ Interface Demo](https://raw.githubusercontent.com/ja616/SustainOps/main/demo4.png) <!-- Note: Add a real screenshot here later -->
+
 ![SustainIQ Interface Demo](https://raw.githubusercontent.com/ja616/SustainOps/main/demo3.png) <!-- Note: Add a real screenshot here later -->
 
 ## 🛠️ Local Development Setup
